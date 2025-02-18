@@ -1,0 +1,152 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+}
+.greyarea{
+    background-color: #1f2937;
+    padding: 16px 0px 180px 0px;
+}
+.logo{
+    font-size: 34px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.link{
+    display: flex;
+    gap: 32px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding:50px 200px;
+}
+
+.cont1 {
+    flex: 1;
+    margin-left: 100px;
+    max-width: 35%; 
+
+}
+.placeholder {
+    flex: 2; 
+    margin: 0 10px; 
+    max-width: 40%;
+    background-color: grey;
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.cont1 h2{
+    font-size: 68px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0px;
+}
+.cont1 p, ul a{
+    font-size: 20px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.content button{
+    padding: 16px 32px;
+    font-size: 18px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+ul li{
+list-style-type:none;
+}
+.whitearea h3{
+text-align: center;
+font-size: 42px;
+color: #1f2937;
+font-weight: 900;
+margin-bottom: 80px;
+}
+.containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+    padding: 0px 350px;
+    padding-bottom: 100px;
+}
+.subtext p{
+    font-size: 28px;
+}
+.subtext{
+    border: 4px solid #3882f6;
+    padding: 160px 10px;
+    font-size: 38px;
+    border-radius: 12px;
+    color: grey;
+    text-align: center;
+}
+.quotearea{
+    background-color:#e5e7eb ;
+    padding: 120px 260px;
+    font-size: 46px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+.scientist{
+    text-align: end;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.bluearea{
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 100px 0px;
+    justify-content: space-around;
+    gap: 120px;
+    margin: 200px;
+    border-radius: 16px;
+}
+.bluearea button{
+    padding: 16px 34px;
+    font-size: 26px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 4px solid white;
+ 
+}
+.signup h3{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0px;
+    text-align: left;
+}
+.signup p{
+    color: white;
+    font-size: 22px;
+    margin: 0px;
+    font-weight: 100;
+}
+.footer{
+    background-color: #1f2937;
+    padding: 50px;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
